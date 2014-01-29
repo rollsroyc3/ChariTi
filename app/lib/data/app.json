@@ -106,37 +106,37 @@
 			"title": "Map",
 			"points": [
 				{
-					"latitude": "28.24560022171899",
-					"longitude": "-80.72571516036987",
+					"latitude": "39.112131",
+					"longitude": "-84.580672",
 					"pinColor": "PURPLE",
-					"title": "Some Random Location",
-					"subTitle": "This is a subtitle",
+					"title": "Elder High School",
+					"subTitle": "Home of the Panthers",
 					"phoneNumber" : "555-555-5555",
-					"address" : "1234 Test Ln Cincinnati OH 12345",
+					"address" : "3900 Vincent Ave Cincinnati OH 45205",
 					"email" : "test@noreply.com",
 					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 				},
 				{
-					"latitude": "28.24704626421908",
-					"longitude": "-80.73882579803467",
+					"latitude": "39.2091525",
+					"longitude": "-84.5045588",
 					"pinColor": "GREEN",
-					"title": "Another Random Location",
-					"subTitle": "This is another subtitle",
+					"title": "St. Xavier High School",
+					"subTitle": "Home of the Bombers",
 					"phoneNumber" : "555-555-5555",
-					"address" : "4567 Test Ln Cincinnati OH 12345",
+					"address" : "600 W.North Bend Road Cincinnati OH 45224",
 					"email" : "test@noreply.com",
-					"description" : "This is a test"
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc"
 				},
 				{
-					"latitude": "28.228406881099808",
-					"longitude": "-80.73399782180786",
+					"latitude": "39.2324049",
+					"longitude": "-84.602839",
 					"pinColor": "RED",
-					"title": "Place C",
-					"subTitle": "",
+					"title": "Colerain High School",
+					"subTitle": "Home of the Cardinals",
 					"phoneNumber" : "555-555-5555",
-					"address" : "7890 Test Ln Cincinnati OH 12345",
+					"address" : "8801 Cheviot Rd Cincinnati, OH 45251",
 					"email" : "test@noreply.com",
-					"description" : "This is a test"
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc"
 				}
 			],
 			"type": "map",

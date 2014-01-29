@@ -45,8 +45,9 @@ $.init = function() {
 			longitude: CONFIG.points[i].longitude,
 			title: CONFIG.points[i].title,
 			subtitle: CONFIG.points[i].subTitle,
-			pincolor: Map["ANNOTATION_" + pinColor]
+			pincolor: Map["ANNOTATION_" + pinColor],
 		});
+		OS_IOS && (annotation.rightButton = Titanium.UI.iPhone.SystemButton.DISCLOSURE);
 		annotations.push(annotation);
 	}
 
@@ -66,7 +67,7 @@ $.init = function() {
 		mapview.addEventListener("click", function(_event) {
 			APP.log("debug", "map @click " + _event.annotation.title);
 
-			if(_event.clicksource === 'pin') {
+			if(_event.clicksource === 'rightButton') {
 				APP.addChild("map_detail", {
 					index: CONFIG.index,
 					data: CONFIG.points[_event.annotation.index]

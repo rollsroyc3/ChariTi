@@ -2,9 +2,7 @@
  * Controller for the map node screen
  *
  * @class Controllers.map.detail
- * @uses Models.map
  * @uses core
- * @uses social
  * @uses Widgets.com.mcongrove.detailNavigation
  */
 var APP = require("core");
@@ -20,16 +18,12 @@ var ACTION = {};
 $.init = function() {
 	APP.log("debug", "map_detail.init | " + JSON.stringify(CONFIG));
 
-	//MODEL.init(CONFIG.index);
-
-	//For now passing data as parameter, need to create model
 	$.handleData(CONFIG.data);
-	//$.handleData(MODEL.getMapDetail(CONFIG.id));
 };
 
 /**
- * Handles the data return
- * @param {Object} _data The returned data
+ * Handles the data passed
+ * @param {Object} _data The passed data
  */
 $.handleData = function(_data) {
 	APP.log("debug", "event_event.handleData");
@@ -53,7 +47,7 @@ $.handleData = function(_data) {
 	}
 
 	// $.NavigationBar.showAction(function(_event) {
-		// SOCIAL.share(ACTION.url, $.NavigationBar.right);
+	// SOCIAL.share(ACTION.url, $.NavigationBar.right);
 	// });
 };
 
