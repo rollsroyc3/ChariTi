@@ -5,6 +5,5 @@
 	top: "0dp",
 	userLocation: true,
 	regionFit: true,
-	mapType: Ti.Map.STANDARD_TYPE,
 	backgroundColor: "#EEE"
 }

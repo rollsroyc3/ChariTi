@@ -82,6 +82,9 @@
         <module platform="iphone">dk.napp.social</module>
         <module platform="iphone">ti.urbanairship</module>
         <module platform="android">ti.urbanairship</module>
+        <module platform="iPhone">ti.map</module>
+        <module platform="iphone">ti.map</module>
+        <module platform="android">ti.map</module>
     </modules>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>

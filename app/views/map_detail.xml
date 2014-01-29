@@ -1,0 +1,18 @@
+<Alloy>
+	<View id="Wrapper" name="MapDetail">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
+		
+		<ScrollView id="container">
+			<View id="staticMapContainer">
+				<ImageView id="photo" />
+			</View>
+			
+			<Label id="heading" />
+			<Label id="location" />
+			<Label id="phoneNumber" />
+			<Label id="email" />
+			
+			<TextArea id="text" />
+		</ScrollView>
+	</View>
+</Alloy>

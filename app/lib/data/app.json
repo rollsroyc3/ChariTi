@@ -103,6 +103,47 @@
 			"tabletSupport": true
 		},
 		{
+			"title": "Map",
+			"points": [
+				{
+					"latitude": "28.24560022171899",
+					"longitude": "-80.72571516036987",
+					"pinColor": "PURPLE",
+					"title": "Some Random Location",
+					"subTitle": "This is a subtitle",
+					"phoneNumber" : "555-555-5555",
+					"address" : "1234 Test Ln Cincinnati OH 12345",
+					"email" : "test@noreply.com",
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				},
+				{
+					"latitude": "28.24704626421908",
+					"longitude": "-80.73882579803467",
+					"pinColor": "GREEN",
+					"title": "Another Random Location",
+					"subTitle": "This is another subtitle",
+					"phoneNumber" : "555-555-5555",
+					"address" : "4567 Test Ln Cincinnati OH 12345",
+					"email" : "test@noreply.com",
+					"description" : "This is a test"
+				},
+				{
+					"latitude": "28.228406881099808",
+					"longitude": "-80.73399782180786",
+					"pinColor": "RED",
+					"title": "Place C",
+					"subTitle": "",
+					"phoneNumber" : "555-555-5555",
+					"address" : "7890 Test Ln Cincinnati OH 12345",
+					"email" : "test@noreply.com",
+					"description" : "This is a test"
+				}
+			],
+			"type": "map",
+			"image": "map",
+			"tabletSupport": false
+		},
+		{
 			"title": "Donate",
 			"heading": "Donate to ChariTi",
 			"text": "ChariTi is a framework built to allow charities to quickly and easily create mobile apps.\n\nWe don't want your money, we just want your code.",
