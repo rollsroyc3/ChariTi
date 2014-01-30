@@ -1,6 +1,6 @@
 <Alloy>
 	<View id="Wrapper" name="Map">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
-		<View id="container"></View>
+		<Module id="mapview" module="ti.map" method="createView" platform="ios"/>
 	</View>
 </Alloy>

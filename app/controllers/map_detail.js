@@ -6,11 +6,8 @@
  * @uses Widgets.com.mcongrove.detailNavigation
  */
 var APP = require("core");
-var SOCIAL = require("social");
-//var MODEL = require("models/map")();
 
 var CONFIG = arguments[0] || {};
-var ACTION = {};
 
 /**
  * Initializes the controller
@@ -34,21 +31,16 @@ $.handleData = function(_data) {
 	$.location.text = _data.address;
 	$.phoneNumber.text = _data.phoneNumber;
 	$.email.text = _data.email;
-	$.photo.image = 'http://maps.googleapis.com/maps/api/staticmap?center=' + _data.latitude + ',' + _data.longitude + '&zoom=13&size=600x300&maptype=roadmap&markers=color:' + _data.pinColor + '|label:A|' + _data.latitude + ',' + _data.longitude + '&sensor=true';
-
-	//ACTION.url = "http://www.facebook.com/events/" + _data.id;
+	var size = (APP.Device.width - 40) + 'x' + ((APP.Device.width - 40) / 2);
+	$.photo.image = 'http://maps.googleapis.com/maps/api/staticmap?center=' + _data.latitude + ',' + _data.longitude + '&zoom=13&size=' + size + '&maptype=roadmap&markers=color:' + _data.pinColor + '|label:A|' + _data.latitude + ',' + _data.longitude + '&sensor=true';
 
 	$.NavigationBar.setBackgroundColor(APP.Settings.colors.primary);
 
-	if(APP.Device.isHandheld) {
+	if(APP.Device.isHandheld || APP.Device.isTablet && !CONFIG.tabletSupport) {
 		$.NavigationBar.showBack(function(_event) {
 			APP.removeAllChildren();
 		});
 	}
-
-	// $.NavigationBar.showAction(function(_event) {
-	// SOCIAL.share(ACTION.url, $.NavigationBar.right);
-	// });
 };
 
 // Kick off the init
