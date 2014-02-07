@@ -1,0 +1,10 @@
+{
+	inProduction = NO;
+	developmentAppKey = "TvE-39WzT1a3ZTSPZ-j71Q";
+	developmentAppSecret = "I0uphmHMT7mOx3W8kd7aVQ";
+	developmentLogLevel = 4;
+	productionLogLevel = 1;
+	productionAppKey = "BHm31OSmQkmOGuNKTH03ig";
+	productionAppSecret = "_p7K9WX2Rk-XG45ZmxpVFw";
+	analyticsEnabled = NO;
+}

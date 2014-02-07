@@ -11,10 +11,10 @@
 	"settings": {
 		"share": "Check out this great ChariTi content",
 		"notifications": {
-			"enabled": false,
+			"enabled": true,
 			"provider": "UA",
-			"key": "AuKi5Qn3QKGTno3xX9ECYA",
-			"secret": "s-RDQejhRwmx-j4DCaXPMw"
+			"key": "TvE-39WzT1a3ZTSPZ-j71Q",
+			"secret": "I0uphmHMT7mOx3W8kd7aVQ"
 		},
 		"colors": {
 			"primary": "#327B9F",

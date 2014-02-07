@@ -1,6 +1,6 @@
 /**
  * Push notification class
- * 
+ *
  * @class push
  * @uses core
  */
@@ -49,6 +49,12 @@ exports.pushRecieved = function(_data) {
 
 	if(_data.data) {
 		payload = _data.data;
+	} else if(_data.message) {
+		payload = {};
+		payload.alert = _data.message;
+	} else if(_data.alert) {
+		payload = {};
+		payload.alert = _data.alert;
 	} else if(_data.payload) {
 		payload = JSON.parse(_data.payload);
 		payload.alert = payload.android.alert;
